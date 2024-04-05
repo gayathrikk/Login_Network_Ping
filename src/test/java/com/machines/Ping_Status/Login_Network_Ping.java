@@ -1,16 +1,14 @@
 package com.machines.Ping_Status;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.jcraft.jsch.ChannelExec;
-import com.jcraft.jsch.JSch;
-import com.jcraft.jsch.Session;
+
 
 public class Login_Network_Ping {
 	

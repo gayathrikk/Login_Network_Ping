@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-05T12:30:37 IST" name="Default suite" finished-at="2024-04-05T12:30:56 IST" duration-ms="18730">
+  <suite started-at="2024-04-05T12:57:11 IST" name="Default suite" finished-at="2024-04-05T12:57:30 IST" duration-ms="18743">
     <groups>
     </groups>
-    <test started-at="2024-04-05T12:30:37 IST" name="Default test" finished-at="2024-04-05T12:30:56 IST" duration-ms="18730">
+    <test started-at="2024-04-05T12:57:11 IST" name="Default test" finished-at="2024-04-05T12:57:30 IST" duration-ms="18743">
       <class name="com.machines.Ping_Status.Login_Network_Ping">
-        <test-method signature="testPing()[pri:0, instance:com.machines.Ping_Status.Login_Network_Ping@7fee8714]" started-at="2024-04-05T12:30:37 IST" name="testPing" finished-at="2024-04-05T12:30:56 IST" duration-ms="18672" status="FAIL">
+        <test-method signature="testPing()[pri:0, instance:com.machines.Ping_Status.Login_Network_Ping@7fee8714]" started-at="2024-04-05T12:57:11 IST" name="testPing" finished-at="2024-04-05T12:57:30 IST" duration-ms="18709" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Domain is not pingable: humanbrain-annotation.firebaseapp.com expected [true] but found [false]]]>
@@ -17,7 +17,7 @@
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
-at com.machines.Ping_Status.Login_Network_Ping.testPing(Login_Network_Ping.java:26)
+at com.machines.Ping_Status.Login_Network_Ping.testPing(Login_Network_Ping.java:24)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
