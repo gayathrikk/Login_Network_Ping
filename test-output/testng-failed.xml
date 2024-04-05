@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.machines.Ping_Status.PP_Machines">
+      <class name="com.machines.Ping_Status.Login_Network_Ping">
         <methods>
-          <include name="pp2"/>
+          <include name="testPing"/>
         </methods>
-      </class> <!-- com.machines.Ping_Status.PP_Machines -->
+      </class> <!-- com.machines.Ping_Status.Login_Network_Ping -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

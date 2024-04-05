@@ -74,7 +74,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.machines.Ping_Status.public_Machines</test>
+            <test>com.machines.Ping_Status.Login_Network_Ping</test>
           </configuration>
         </plugin>
       </plugins>

@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T12:14:11 IST" name="Default suite" finished-at="2024-03-21T12:14:51 IST" duration-ms="39866">
+  <suite started-at="2024-04-05T12:30:37 IST" name="Default suite" finished-at="2024-04-05T12:30:56 IST" duration-ms="18730">
     <groups>
     </groups>
-    <test started-at="2024-03-21T12:14:11 IST" name="Default test" finished-at="2024-03-21T12:14:51 IST" duration-ms="39866">
-      <class name="com.machines.Ping_Status.PP_Machines">
-        <test-method signature="pp1()[pri:1, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:11 IST" name="pp1" finished-at="2024-03-21T12:14:15 IST" duration-ms="3877" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp1 -->
-        <test-method signature="pp2()[pri:2, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:15 IST" name="pp2" finished-at="2024-03-21T12:14:22 IST" duration-ms="6712" status="FAIL">
+    <test started-at="2024-04-05T12:30:37 IST" name="Default test" finished-at="2024-04-05T12:30:56 IST" duration-ms="18730">
+      <class name="com.machines.Ping_Status.Login_Network_Ping">
+        <test-method signature="testPing()[pri:0, instance:com.machines.Ping_Status.Login_Network_Ping@7fee8714]" started-at="2024-04-05T12:30:37 IST" name="testPing" finished-at="2024-04-05T12:30:56 IST" duration-ms="18672" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[did not expect [0] but found [0]]]>
+              <![CDATA[Domain is not pingable: humanbrain-annotation.firebaseapp.com expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: did not expect [0] but found [0]
+              <![CDATA[java.lang.AssertionError: Domain is not pingable: humanbrain-annotation.firebaseapp.com expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failEquals(Assert.java:1041)
-at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
-at org.testng.Assert.assertNotEquals(Assert.java:1531)
-at org.testng.Assert.assertNotEquals(Assert.java:1535)
-at com.machines.Ping_Status.PP_Machines.connect(PP_Machines.java:105)
-at com.machines.Ping_Status.PP_Machines.pp2(PP_Machines.java:25)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.machines.Ping_Status.Login_Network_Ping.testPing(Login_Network_Ping.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -56,36 +49,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pp2 -->
-        <test-method signature="pp3v5()[pri:3, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:22 IST" name="pp3v5" finished-at="2024-03-21T12:14:26 IST" duration-ms="3698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp3v5 -->
-        <test-method signature="pp4v5()[pri:4, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:26 IST" name="pp4v5" finished-at="2024-03-21T12:14:29 IST" duration-ms="3721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp4v5 -->
-        <test-method signature="pp4v15()[pri:5, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:29 IST" name="pp4v15" finished-at="2024-03-21T12:14:33 IST" duration-ms="3702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp4v15 -->
-        <test-method signature="pp5v5()[pri:6, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:33 IST" name="pp5v5" finished-at="2024-03-21T12:14:40 IST" duration-ms="6837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp5v5 -->
-        <test-method signature="pp5v15()[pri:7, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:40 IST" name="pp5v15" finished-at="2024-03-21T12:14:44 IST" duration-ms="3697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp5v15 -->
-        <test-method signature="pp7v5()[pri:8, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:44 IST" name="pp7v5" finished-at="2024-03-21T12:14:47 IST" duration-ms="3773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp7v5 -->
-        <test-method signature="pp7v15()[pri:9, instance:com.machines.Ping_Status.PP_Machines@47987356]" started-at="2024-03-21T12:14:47 IST" name="pp7v15" finished-at="2024-03-21T12:14:51 IST" duration-ms="3814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pp7v15 -->
-      </class> <!-- com.machines.Ping_Status.PP_Machines -->
+        </test-method> <!-- testPing -->
+      </class> <!-- com.machines.Ping_Status.Login_Network_Ping -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
