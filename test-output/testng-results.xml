@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-05T14:30:00 IST" name="Default suite" finished-at="2024-04-05T14:30:07 IST" duration-ms="6872">
+  <suite started-at="2024-04-05T14:33:32 IST" name="Default suite" finished-at="2024-04-05T14:33:39 IST" duration-ms="6839">
     <groups>
     </groups>
-    <test started-at="2024-04-05T14:30:00 IST" name="Default test" finished-at="2024-04-05T14:30:07 IST" duration-ms="6872">
+    <test started-at="2024-04-05T14:33:32 IST" name="Default test" finished-at="2024-04-05T14:33:39 IST" duration-ms="6839">
       <class name="com.machines.Ping_Status.Login_Network_Ping">
-        <test-method signature="Login_Link()[pri:1, instance:com.machines.Ping_Status.Login_Network_Ping@7205765b]" started-at="2024-04-05T14:30:00 IST" name="Login_Link" finished-at="2024-04-05T14:30:07 IST" duration-ms="6851" status="PASS">
+        <test-method signature="Login_Link()[pri:1, instance:com.machines.Ping_Status.Login_Network_Ping@4229bb3f]" started-at="2024-04-05T14:33:32 IST" name="Login_Link" finished-at="2024-04-05T14:33:39 IST" duration-ms="6819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Link -->
