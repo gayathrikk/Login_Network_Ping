@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-05T14:26:56 IST" name="Default suite" finished-at="2024-04-05T14:26:59 IST" duration-ms="3160">
+  <suite started-at="2024-04-05T14:30:00 IST" name="Default suite" finished-at="2024-04-05T14:30:07 IST" duration-ms="6872">
     <groups>
     </groups>
-    <test started-at="2024-04-05T14:26:56 IST" name="Default test" finished-at="2024-04-05T14:26:59 IST" duration-ms="3160">
+    <test started-at="2024-04-05T14:30:00 IST" name="Default test" finished-at="2024-04-05T14:30:07 IST" duration-ms="6872">
       <class name="com.machines.Ping_Status.Login_Network_Ping">
-        <test-method signature="testPing()[pri:0, instance:com.machines.Ping_Status.Login_Network_Ping@7fee8714]" started-at="2024-04-05T14:26:56 IST" name="testPing" finished-at="2024-04-05T14:26:59 IST" duration-ms="3144" status="PASS">
+        <test-method signature="Login_Link()[pri:1, instance:com.machines.Ping_Status.Login_Network_Ping@7205765b]" started-at="2024-04-05T14:30:00 IST" name="Login_Link" finished-at="2024-04-05T14:30:07 IST" duration-ms="6851" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPing -->
+        </test-method> <!-- Login_Link -->
       </class> <!-- com.machines.Ping_Status.Login_Network_Ping -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
