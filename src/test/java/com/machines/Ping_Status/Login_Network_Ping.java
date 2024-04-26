@@ -38,7 +38,7 @@ public class Login_Network_Ping {
                 channel.setOutputStream(responseStream);
                 channel.connect();
 
-                while (channel.isConnected()) {
+                while (!channel.isClosed()) {
                     Thread.sleep(100);
                 }
 
@@ -58,6 +58,7 @@ public class Login_Network_Ping {
                     Assert.assertNotEquals(r, 0);
                 } catch (Exception e) {
                     System.err.println("Unable to ping : " + s);
+                    e.printStackTrace(); // Adding stack trace for debugging
                 }
             }
         } finally {
